@@ -20,6 +20,7 @@
         .affiliation { font-size: 0.9em; color: #666; display: block; }
         .aspire-role { font-size: 0.85em; color: #004a99; font-weight: bold; }
         .sponsor-logo { max-width: 320px; height: auto; margin-top: 20px; display: block; }
+        .program-table { min-width: 760px; }
     </style>
 </head>
 <body>
@@ -91,7 +92,7 @@
     <section id="registration" class="mb-5">
         <h2 class="section-title">Registration Fees</h2>
         <div class="alert alert-info mb-4" role="alert">
-            <strong>WUDS2026 is a closed workshop. </strong>
+            <strong>WUDS2026 is a closed workshop.</strong>
             Registration details, including the website URL, will be sent to participants by email.
         </div>
         <div class="row g-4 mb-4">
@@ -172,7 +173,7 @@
     </section>
 
     <section id="speakers" class="mb-5">
-        <h2 class="section-title">Invited Speakers (TBD)</h2>
+        <h2 class="section-title">Invited Speakers</h2>
         <div class="info-box">
             <ul class="speaker-list">
                 <li><strong>Constantino Lagoa</strong> <span class="affiliation">Pennsylvania State University, USA</span></li>
@@ -206,127 +207,182 @@
     </section>
 
     
-    <section id="program" class="mb-5">
-        <h2 class="section-title">Program (TBD)</h2>
-        <!--
-        <div class="mb-4">
-            <h4>August 17 (Mon)</h4>
-            <div class="info-box">Evening: Welcome Reception (TBD)</div>
-        </div>
-        -->
-        <div class="mb-4">
-            <h4>August 18 (Tue)</h4>
-            <div class="info-box">9:00-17:00: Morning and Afternoon: Traditional WUDS Technical Sessions</div>
-        </div>
-        <div class="mb-4">
-            <h4>August 19 (Wed)</h4>
-            <div class="info-box">Morning and Afternoon: Traditional WUDS Technical Sessions Evening: WUDS Banquet @ OIT Umeda Campus 21F (booked for 60 people)</div>
-        </div>
-        <div class="mb-4">
-            <h4>August 20 (Thu)</h4>
-            <div class="info-box">9:00-17:00: Morning: ASPIRE PI Presentations, Afternoon: Poster Session by ASPIRE Young Researchers, Evening: ASPIRE-CPDS Banquet (TBD)</div>
+        <section id="program" class="mb-5">
+        <h2 class="section-title">Program Overview</h2>
+        <div class="row g-4 mb-5">
+            <div class="col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-header bg-light">
+                        <h4 class="mb-0">August 18 (Tue)</h4>
+                    </div>
+                    <div class="card-body">
+                        <p class="mb-0"><strong>09:00–17:00</strong><br>WUDS Technical Sessions</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-header bg-light">
+                        <h4 class="mb-0">August 19 (Wed)</h4>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>09:00–17:00</strong><br>WUDS Technical Sessions</p>
+                        <p class="mb-0"><strong>Evening</strong><br>WUDS Banquet at OIT Umeda Campus, 21F</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-header bg-light">
+                        <h4 class="mb-0">August 20 (Thu)</h4>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Morning and early afternoon</strong><br>ASPIRE-CPDS Presentations</p>
+                        <p><strong>15:30</strong><br>Poster Session by ASPIRE Young Researchers</p>
+                        <p class="mb-0"><strong>19:00</strong><br>Farewell Reception</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <h2 class="section-title">Technical Program (TBD)</h2>
-        
-        <div class="mb-4">
+        <h2 class="section-title">Technical Program</h2>
+        <p class="text-muted mb-4">Presentation titles marked “TBD” will be updated when available.</p>
+
+        <div class="mb-5">
             <h4>August 18 (Tue)</h4>
+            <p class="small text-muted mb-2">Room 203 opens at 08:30. Registration begins at 08:40. The room closes at 17:30.</p>
             <div class="table-responsive">
-                <table class="table table-bordered align-middle">
+                <table class="table table-bordered align-middle program-table">
+                    <thead class="table-light">
+                        <tr>
+                            <th scope="col" style="width: 28%;">Speaker</th>
+                            <th scope="col">Presentation Title</th>
+                        </tr>
+                    </thead>
                     <tbody>
-                        <tr><th>08:30</th><td>Room 203 Opened</td></tr>
-                        <tr><th>08:40</th><td>Registration</td></tr>
-                        <tr><th>09:00 - 12:00</th><td>Technical Sessions (Speakers 1-4)</td></tr>
-                        <tr><th>12:00</th><td>Lunch Break</td></tr>
-                        <tr><th>13:20 - 17:00</th><td>Technical Sessions (Speakers 5-9)</td></tr>
-                        <tr><th>17:30</th><td>Room 203 Closed</td></tr>
+                        <tr class="table-primary"><th colspan="2">Morning Session (09:00–12:00)</th></tr>
+                        <tr><td><strong>Toshiharu Sugie</strong> (JP)</td><td>Accurate Continuous-Time Model Identification from a Single Step Response Experiment: A Least-Squares and One-Parameter Search Approach</td></tr>
+                        <tr><td><strong>Yasumasa Fujisaki</strong> (JP)</td><td>Minimal-Order Distributed Observer Design for Satellite Networks with Flexible Appendages</td></tr>
+                        <tr><td><strong>Jared Miller</strong> (US)</td><td>Structure and Synthesis of Optimization Algorithms</td></tr>
+                        <tr><td><strong>Ian Petersen</strong> (AU)</td><td>A Fundamental Convergence Rate Bound for Gradient Based Online Optimization Algorithms with Exact Tracking</td></tr>
+                        <tr class="table-secondary"><th colspan="2">Lunch Break (12:00–13:20)</th></tr>
+                        <tr class="table-primary"><th colspan="2">Afternoon Session (13:20–17:00)</th></tr>
+                        <tr><td><strong>Giulia Giordano</strong> (IT)</td><td>Surviving Uncertainty: Structural Properties, Robustness and Resilience of Dynamical Networks in Nature</td></tr>
+                        <tr><td><strong>Constantino Lagoa</strong> (US)</td><td>Using large fragmented noisy data sets in behavioral approaches to LTI systems modelling</td></tr>
+                        <tr><td><strong>Simone Garatti</strong> (IT)</td><td>Data-driven risk-aware design via sample compression and the Pick-to-Learn algorithm</td></tr>
+                        <tr><td><strong>Patrizio Colaneri</strong> (IT)</td><td>Optimal periodic control of LTI discrete-time systems</td></tr>
+                        <tr><td><strong>Frank Allgower</strong> (DE)</td><td>TBD</td></tr>
                     </tbody>
                 </table>
             </div>
         </div>
 
-        <div class="mb-4">
+        <div class="mb-5">
             <h4>August 19 (Wed)</h4>
+            <p class="small text-muted mb-2">Room 203 opens at 08:30 and closes at 17:30.</p>
             <div class="table-responsive">
-                <table class="table table-bordered align-middle">
+                <table class="table table-bordered align-middle program-table">
+                    <thead class="table-light">
+                        <tr>
+                            <th scope="col" style="width: 28%;">Speaker</th>
+                            <th scope="col">Presentation Title</th>
+                        </tr>
+                    </thead>
                     <tbody>
-                        <tr><th>08:30</th><td>Room 203 Opened</td></tr>
-                        <tr><th>09:00 - 12:00</th><td>Technical Sessions (Speakers 1-4)</td></tr>
-                        <tr><th>12:00</th><td>Lunch Break</td></tr>
-                        <tr><th>13:20 - 17:00</th><td>Technical Sessions (Speakers 5-9)</td></tr>
-                        <tr><th>17:30</th><td>Room 203 Closed</td></tr>
+                        <tr class="table-primary"><th colspan="2">Morning Session (09:00–12:00)</th></tr>
+                        <tr><td><strong>Sze Zheng Yong</strong> (US)</td><td>Guaranteed Constraint Satisfaction in Neural Network Controllers: Architecture Design and Optimal-Decay CBFs</td></tr>
+                        <tr><td><strong>Takayuki Wada</strong> (JP)</td><td>Safety-Certified Learning of Neural Controllers for Uncertain Dynamical Systems via Importance-Weighted Concentration Bounds</td></tr>
+                        <tr><td><strong>Joao Gomes</strong> (BR)</td><td>Stability of Dynamical Systems with Vector Fields Given by Multi-Layer ReLU Neural Networks</td></tr>
+                        <tr><td><strong>Enrique Mallada</strong> (US)</td><td>On the Inductive Bias for Learning in Nonlinear Control: Trade-offs and Guarantees</td></tr>
+                        <tr class="table-secondary"><th colspan="2">Lunch Break (12:00–13:20)</th></tr>
+                        <tr class="table-primary"><th colspan="2">Afternoon Session (13:20–17:00)</th></tr>
+                        <tr><td><strong>Pablo Parrilo</strong> (US)</td><td>TBD</td></tr>
+                        <tr><td><strong>Melkior Ornik</strong> (US)</td><td>Maximal Guarantees Under Minimal Knowledge: Limits of Resilience</td></tr>
+                        <tr><td><strong>Bob Barmish</strong> (US)</td><td>Some New Directions for Research on Stability of Slowly Time-Varying Linear Systems</td></tr>
+                        <tr><td><strong>Mario Sznaier</strong> (US)</td><td>What can Generative AI do for control and viceversa?</td></tr>
+                        <tr><td><strong>Franco Blanchini</strong> (IT)</td><td>Initialization-Independent Optimal Control for Bilinear Systems</td></tr>
                     </tbody>
                 </table>
+            </div>
+            <div class="info-box py-3">
+                <strong>Evening:</strong> WUDS Banquet at OIT Umeda Campus, 21F.
             </div>
         </div>
 
         <div class="mb-4">
             <h4>August 20 (Thu)</h4>
             <div class="table-responsive">
-                <table class="table table-bordered align-middle">
+                <table class="table table-bordered align-middle program-table">
+                    <thead class="table-light">
+                        <tr>
+                            <th scope="col" style="width: 12%;">Time</th>
+                            <th scope="col" style="width: 25%;">Speaker</th>
+                            <th scope="col">Presentation Title</th>
+                        </tr>
+                    </thead>
                     <tbody>
-                        <tr><th>08:30</th><td>Room 203 Opened</td></tr>
-                        <tr><th>09:00</th><td>Yoshio Ebihara</td></tr>
-                        <tr><th>09:30</th><td>Hideaki Ishii</td></tr>
-                        <tr><th>10:00</th><td>Masaaki Nagahara</td></tr>
-                        <tr><th>11:00</th><td>Shinji Hara</td></tr>
-                        <tr><th>11:30</th><td>Maurice Heemels</td></tr>
-                        <tr><th>13:30</th><td>Karl Henrik Johansson</td></tr>
-                        <tr><th>14:00</th><td>Martina Mammarella</td></tr>
-                        <tr><th>14:30</th><td>Dimitri Peaucelle</td></tr>
-                        <tr><th>15:30</th><td>Poster Session by ASPIRE Young Researchers</td></tr>
-                        <tr><th>17:30</th><td>Room 203 Closed</td></tr>
-                        <tr><th>19:00</th><td>Farewell Reception (ASPIRE-CPDS Banquet) @ Osaka</td></tr>
+                        <tr><th scope="row">08:30</th><td colspan="2">Room 203 Opens</td></tr>
+                        <tr><th scope="row">09:00</th><td><strong>Yoshio Ebihara</strong> (JP)</td><td>Detecting Destabilizing Nonlinearities in Absolute Stability Analysis of Nonlinear Feedback Systems</td></tr>
+                        <tr><th scope="row">09:30</th><td><strong>Hideaki Ishii</strong> (JP)</td><td>TBD</td></tr>
+                        <tr><th scope="row">10:00</th><td><strong>Masaaki Nagahara</strong> (JP)</td><td>Sparse control for continuous-time systems</td></tr>
+                        <tr><th scope="row">11:00</th><td><strong>Shinji Hara</strong> (JP)</td><td>Robust Instability Analysis for Uncertain Networked Dynamical Systems</td></tr>
+                        <tr><th scope="row">11:30</th><td><strong>Maurice Heemels</strong> (NL)</td><td>Projected Dynamics in Control: Stability, Safety, Performance – and Applications</td></tr>
+                        <tr><th scope="row">13:30</th><td><strong>Karl Henrik Johansson</strong> (SE)</td><td>How to learn flow functions for networked nonlinear control systems</td></tr>
+                        <tr><th scope="row">14:00</th><td><strong>Martina Mammarella</strong> (IT)</td><td>Measured-state conditioned recursive feasibility for stochastic model predictive control</td></tr>
+                        <tr><th scope="row">14:30</th><td><strong>Dimitri Peaucelle</strong> (FR)</td><td>S-variable approach for generic convex polyhedra</td></tr>
+                        <tr class="table-primary"><th scope="row">15:30</th><td colspan="2"><strong>Poster Session by ASPIRE Young Researchers</strong></td></tr>
+                        <tr><th scope="row">17:30</th><td colspan="2">Room 203 Closes</td></tr>
+                        <tr class="table-secondary"><th scope="row">19:00</th><td colspan="2"><strong>Farewell Reception</strong></td></tr>
                     </tbody>
                 </table>
             </div>
             <div class="alert alert-info mt-3" role="alert">
-                <h5 class="alert-heading">Information for Poster Presenters</h5>
-                <p class="mb-2">
+<h5 class="alert-heading">Information for Poster Presenters</h5>
+<p class="mb-2">
                     Each poster presenter will be provided with one poster board.
                     The available display area on each board is approximately
                     <strong>115 cm wide and 169 cm high</strong>.
                     A portrait-oriented A0 poster can be displayed on the board.
                 </p>
-                <p class="mb-2">
+<p class="mb-2">
                     Please note that the organizers will not print posters for presenters.
                     Poster presenters are requested to either bring their printed posters
                     with them or arrange poster printing near the venue.
                 </p>
-                <p class="mb-0">
+<p class="mb-0">
                     For example, poster printing services are available at
-                    <a href="https://www.kinkos.co.jp/store/osaka/o014/" target="_blank" rel="noopener">
+                    <a href="https://www.kinkos.co.jp/store/osaka/o014/" rel="noopener" target="_blank">
                         Kinko's Umeda Store
                     </a>
                     near the venue. Please note that the linked page is in Japanese.
                     You may also search for “Kinko's Umeda Store” on Google Maps.
                 </p>
-            </div>
+</div>
             <div class="info-box mt-3">
-                <h5 class="fw-bold">Poster Presenters</h5>
-                <ul class="speaker-list mb-0">
-                    <li><strong>Takumi Shinohara</strong> <span class="affiliation">KTH Royal Institute of Technology</span></li>
-                    <li><strong>Rui Kato</strong> <span class="affiliation">Université Claude Bernard Lyon 1</span></li>
-                    <li><strong>Shumpei Nishida</strong> <span class="affiliation">Ritsumeikan University</span></li>
-                    <li><strong>Fumiya Matsuzaki</strong> <span class="affiliation">Joint Graduate School of Mathematics for Innovation, Kyushu University</span></li>
-                    <li><strong>Taichi Tanaka</strong> <span class="affiliation">Institute of Science Tokyo, Tokyo, Japan</span></li>
-                    <li><strong>Iori Takaki</strong> <span class="affiliation">The University of Tokyo</span></li>
-                    <li><strong>Kazunobu Serizawa</strong> <span class="affiliation">The University of Osaka</span></li>
-                    <li><strong>Yuyue Yan</strong> <span class="affiliation">The University of Tokyo</span></li>
-                    <li><strong>Paula Chanfreut Palacio</strong> <span class="affiliation">Eindhoven University of Technology</span></li>
-                    <li><strong>Aris Kanellopoulos</strong> <span class="affiliation">The University of Tokyo</span></li>
-                    <li><strong>Yu Zhou</strong> <span class="affiliation">Hiroshima University</span></li>
-                    <li><strong>Takumi Iwata</strong> <span class="affiliation">Hiroshima University</span></li>
-                    <li><strong>Victor Molnö</strong> <span class="affiliation">KTH Royal Institute of Technology</span></li>
-                    <li><strong>Enno Breukelman</strong> <span class="affiliation">KTH Royal Institute of Technology</span></li>
-                    <li><strong>Alejandro Penacho Riveiros</strong> <span class="affiliation">KTH Royal Institute of Technology</span></li>
-                    <li><strong>Philipp Grünter</strong> <span class="affiliation">KTH Royal Institute of Technology</span></li>
-                    <li><strong>Takuya Ikeda</strong> <span class="affiliation">The University of Kitakyushu</span></li>
-                    <li><strong>Michelle Chong</strong> <span class="affiliation">Eindhoven University of Technology</span></li>
-                    <li><strong>Souvik Das</strong> <span class="affiliation">The University of Tokyo</span></li>
-                    <li><strong>Kenta Tanaka</strong> <span class="affiliation">University of Hyogo</span></li>
-                </ul>
-            </div>
+<h5 class="fw-bold">Poster Presenters</h5>
+<ul class="speaker-list mb-0">
+<li><strong>Takumi Shinohara</strong> <span class="affiliation">KTH Royal Institute of Technology</span></li>
+<li><strong>Rui Kato</strong> <span class="affiliation">Université Claude Bernard Lyon 1</span></li>
+<li><strong>Shumpei Nishida</strong> <span class="affiliation">Ritsumeikan University</span></li>
+<li><strong>Fumiya Matsuzaki</strong> <span class="affiliation">Joint Graduate School of Mathematics for Innovation, Kyushu University</span></li>
+<li><strong>Taichi Tanaka</strong> <span class="affiliation">Institute of Science Tokyo, Tokyo, Japan</span></li>
+<li><strong>Iori Takaki</strong> <span class="affiliation">The University of Tokyo</span></li>
+<li><strong>Kazunobu Serizawa</strong> <span class="affiliation">The University of Osaka</span></li>
+<li><strong>Yuyue Yan</strong> <span class="affiliation">The University of Tokyo</span></li>
+<li><strong>Paula Chanfreut Palacio</strong> <span class="affiliation">Eindhoven University of Technology</span></li>
+<li><strong>Aris Kanellopoulos</strong> <span class="affiliation">The University of Tokyo</span></li>
+<li><strong>Yu Zhou</strong> <span class="affiliation">Hiroshima University</span></li>
+<li><strong>Takumi Iwata</strong> <span class="affiliation">Hiroshima University</span></li>
+<li><strong>Victor Molnö</strong> <span class="affiliation">KTH Royal Institute of Technology</span></li>
+<li><strong>Enno Breukelman</strong> <span class="affiliation">KTH Royal Institute of Technology</span></li>
+<li><strong>Alejandro Penacho Riveiros</strong> <span class="affiliation">KTH Royal Institute of Technology</span></li>
+<li><strong>Philipp Grünter</strong> <span class="affiliation">KTH Royal Institute of Technology</span></li>
+<li><strong>Takuya Ikeda</strong> <span class="affiliation">The University of Kitakyushu</span></li>
+<li><strong>Michelle Chong</strong> <span class="affiliation">Eindhoven University of Technology</span></li>
+<li><strong>Souvik Das</strong> <span class="affiliation">The University of Tokyo</span></li>
+<li><strong>Kenta Tanaka</strong> <span class="affiliation">University of Hyogo</span></li>
+</ul>
+</div>
         </div>
     </section>
 
